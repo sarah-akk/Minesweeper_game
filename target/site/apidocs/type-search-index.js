@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"myminesweeper","l":"DataSet"},{"p":"myminesweeper","l":"GameAdmin"},{"p":"myminesweeper","l":"GameMaker"},{"p":"myminesweeper","l":"Grid"},{"p":"myminesweeper","l":"GuiAdmin"},{"p":"myminesweeper","l":"Minesweeper2"},{"p":"myminesweeper","l":"saveload"}];updateSearchResults();
