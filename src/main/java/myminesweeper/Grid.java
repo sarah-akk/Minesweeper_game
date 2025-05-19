@@ -40,7 +40,7 @@ public class Grid  {
         
         data = new DataSet();
         
-        ImageIcon img = new ImageIcon("C:\\Users\\Sarah Akkad\\Desktop\\New folder\\photo_2023-01-05_20-53-39.jpg");
+        ImageIcon img = new ImageIcon("images\\photo_2023-01-05_20-53-39.jpg");
 
         scorearea = new JPanel() {
             @Override

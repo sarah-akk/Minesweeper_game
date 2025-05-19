@@ -131,51 +131,51 @@ public class GuiAdmin {
             if(Turn%2==0)
             {//RED
                switch (x) {
-                case -1 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\pngwing.com copy.png";
+                case -1 : path = "images\\pngwing.com copy.png";
                 break;
-                case 0 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\New Canvas.png";
+                case 0 : path = "images\\New Canvas.png";
                 break;
-                case 1 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\1 copy.png";
+                case 1 : path = "images\\1 copy.png";
                 break;
-                case 2 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\2 copy.png";
+                case 2 : path = "images\\2 copy.png";
                 break;
-                case 3 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\3 copy.png";
+                case 3 : path = "images\\3 copy.png";
                 break;
-                case 4 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\4 copy.png";
+                case 4 : path = "images\\4 copy.png";
                 break;
-                case 5 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\5 copy.png";
+                case 5 : path = "images\\5 copy.png";
                 break;
-                case 6 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\6 copy.png";
+                case 6 : path = "images\\6 copy.png";
                 break;
-                case 7 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\7 copy.png";
+                case 7 : path = "images\\7 copy.png";
                 break;
-                case 8 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\8 copy.png";
+                case 8 : path = "images\\8 copy.png";
                 break;
-                case 9 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\unnamed copy.png";
+                case 9 : path = "images\\unnamed copy.png";
                }
             }else{//GREEN
                 switch (x) {
-                case -1 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\pngwing.com copy1.png";
+                case -1 : path = "images\\pngwing.com copy1.png";
                 break;
-                case 0 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\New Canvas.png";
+                case 0 : path = "images\\New Canvas.png";
                 break;
-                case 1 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\1 copy1.png";
+                case 1 : path = "images\\1 copy1.png";
                 break;
-                case 2 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\2 copy1.png";
+                case 2 : path = "images\\2 copy1.png";
                 break;
-                case 3 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\3 copy1.png";
+                case 3 : path = "images\\3 copy1.png";
                 break;
-                case 4 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\4 copy1.png";
+                case 4 : path = "images\\4 copy1.png";
                 break;
-                case 5 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\5 copy1.png";
+                case 5 : path = "images\\5 copy1.png";
                 break;
-                case 6 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\6 copy1.png";
+                case 6 : path = "images\\6 copy1.png";
                 break;
-                case 7 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\7 copy1.png";
+                case 7 : path = "images\\7 copy1.png";
                 break;
-                case 8 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\8 copy1.png";
+                case 8 : path = "images\\8 copy1.png";
                 break;
-                case 9 : path = "C:\\Users\\Sarah Akkad\\Desktop\\New folder\\unnamed copy1.png";
+                case 9 : path = "images\\unnamed copy1.png";
                }
                 
             }
@@ -292,7 +292,7 @@ public class GuiAdmin {
                                 winfram.setSize(300, 300);
                                 BufferedImage bufferedImage = null;
                                 try {
-                                    bufferedImage = ImageIO.read(new File("C:\\Users\\Sarah Akkad\\Desktop\\New folder\\photo_2023-01-05_18-54-18.jpg"));
+                                    bufferedImage = ImageIO.read(new File("C:images\\photo_2023-01-05_18-54-18.jpg"));
                                 } catch (IOException ex1) {
                                     Logger.getLogger(Minesweeper2.class.getName()).log(Level.SEVERE, null, ex1);
                                 }

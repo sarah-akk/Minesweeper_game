@@ -107,7 +107,7 @@ class Player implements Serializable{
         } while (c<0 || c >= GameAdmin.Y || r <0 || r >= GameAdmin.X || GameAdmin.board[c][r].isCleared());
         //flags
         int tmp;
-            System.out.println("to flage control enter 0 : to scan the cell enter another numner  ");
+            System.out.println("to flage control enter 0 : to scan the cell enter another number  ");
             flag = in.nextInt();
             if(flag==0)
             {

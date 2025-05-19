@@ -35,7 +35,7 @@ public class Minesweeper2 implements Runnable{
             boolean round1 = true;
             while (round1) {
                 while (round1) {
-                    turn.setIcon(new ImageIcon(new ImageIcon("C:\\Users\\Sarah Akkad\\Desktop\\New folder\\pngwing.com (3) copyq.png").getImage().getScaledInstance(50, 50, Image.SCALE_DEFAULT)));
+                    turn.setIcon(new ImageIcon(new ImageIcon("images\\pngwing.com (3) copyq.png").getImage().getScaledInstance(50, 50, Image.SCALE_DEFAULT)));
                    int oldturn = GuiAdmin.Turn;
                     for (int i = 10; i > 0; i--) {
                         if (GuiAdmin.Turn % 2 == 1 || oldturn !=GuiAdmin.Turn) {
@@ -51,7 +51,7 @@ public class Minesweeper2 implements Runnable{
                     round1 = false;
                 }
                 while (!round1) {
-                    turn.setIcon(new ImageIcon(new ImageIcon("C:\\Users\\Sarah Akkad\\Downloads\\Telegram Desktop\\pngwing.com (3) copyq copy.png").getImage().getScaledInstance(50, 50, Image.SCALE_DEFAULT)));
+                    turn.setIcon(new ImageIcon(new ImageIcon("images\\pngwing.com (3) copyq copy.png").getImage().getScaledInstance(50, 50, Image.SCALE_DEFAULT)));
 
                     for (int i = 10; i > 0; i--) {
                         if (GuiAdmin.Turn % 2 == 0) {
@@ -81,8 +81,8 @@ public class Minesweeper2 implements Runnable{
         
         //firstframe
         JFrame fram1 = new JFrame("minesweeper");
-        fram1.setContentPane(new JLabel(new ImageIcon(ImageIO.read(new File("C:\\Users\\Sarah Akkad\\Desktop\\New folder\\Example.jpg.3198f1e9c7c7a5038e4179d6abc47404.jpg")))));
-        fram1.setIconImage((new ImageIcon("C:\\Users\\Sarah Akkad\\Desktop\\New folder\\2wsdcv (5) copy.png")).getImage());
+        fram1.setContentPane(new JLabel(new ImageIcon(ImageIO.read(new File("images\\Example.jpg.3198f1e9c7c7a5038e4179d6abc47404.jpg")))));
+        fram1.setIconImage((new ImageIcon("images\\2wsdcv (5) copy.png")).getImage());
         JButton co = new JButton("Console Game");
         co.setBounds(120, 150, 150, 30);
 
@@ -164,7 +164,7 @@ public class Minesweeper2 implements Runnable{
                                 
                                 fram1.setVisible(false);
                                 JFrame frame = new JFrame();
-                                frame.setIconImage((new ImageIcon("C:\\Users\\Sarah Akkad\\Desktop\\New folder\\2wsdcv (5) copy.png")).getImage());
+                                frame.setIconImage((new ImageIcon("images\\2wsdcv (5) copy.png")).getImage());
                                 frame.setLayout(null);
                                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                                 frame.setSize(415,500);
@@ -203,7 +203,7 @@ public class Minesweeper2 implements Runnable{
                                 
                                 fram1.setVisible(false);
                                 JFrame frame = new JFrame();
-                                frame.setIconImage((new ImageIcon("C:\\Users\\Sarah Akkad\\Desktop\\New folder\\2wsdcv (5) copy.png")).getImage());
+                                frame.setIconImage((new ImageIcon("images\\2wsdcv (5) copy.png")).getImage());
                                 frame.setLayout(null);
                                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                                 frame.setSize(415,500);
@@ -232,7 +232,7 @@ public class Minesweeper2 implements Runnable{
                                 
                                 fram1.setVisible(false);
                                 JFrame frame = new JFrame();
-                                frame.setIconImage((new ImageIcon("C:\\Users\\User\\Desktop\\New folder\\2wsdcv (5) copy.png")).getImage());
+                                frame.setIconImage((new ImageIcon("images\\2wsdcv (5) copy.png")).getImage());
                                 frame.setLayout(null);
                                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                                 frame.setSize(415,500);
@@ -244,17 +244,11 @@ public class Minesweeper2 implements Runnable{
                                 new GuiAdmin();
                                 Minesweeper2 m1 = new Minesweeper2();
                                 Thread t1 = new Thread(m1);
-                                t1.start();
-                                
-                                
-         
-                                 
+                                t1.start();                                 
                             }
                         });
                      
-
                     }
-
                 });
             }
         });
